@@ -18,7 +18,7 @@ mail_server="imap.gmail.com"
 casilla="inbox"
 direccion="noresponder@pizzapizza.cl"
 regex=r"^010001[6-7]{1}[0-9a-f]{9}\-[0-9a-f]{8}(\-[0-9a-f]{4}){3}\-[0-9a-f]{12}-[0]{6}@(email|[a-z]{2}(\-gov)?\-[a-z]{4,9}\-[1-3]{1})\.amazonses\.com$"
-fecharegexstring="20/07/18"
+fecharegexstring="18/07/18"
 fecharegex=utc.localize(datetime.strptime(fecharegexstring,'%d/%m/%y'))
 
 #Proceso de Login
